@@ -1,0 +1,60 @@
+{
+  "articles": [
+    {
+      "title": "The Power of Proper Hydration",
+      "description": "Explore how staying adequately hydrated throughout the day supports vital bodily functions, boosts physical performance, and improves focus.",
+      "ways_to_achieve": [
+        "Carry a reusable water bottle to track your daily fluid intake.",
+        "Drink a glass of water first thing upon waking up in the morning.",
+        "Eat water-rich foods such as cucumbers, watermelon, and oranges."
+      ],
+      "benefits": [
+        "Maintained energy levels and reduced cognitive fatigue.",
+        "Optimal digestion, joint lubrication, and healthy skin elasticity.",
+        "Better body temperature regulation and kidney function."
+      ]
+    },
+    {
+      "title": "Digital Detox for Mental Clarity",
+      "description": "Learn how taking intentional breaks from screens and social media can reduce anxiety, restore focus, and encourage real-world connections.",
+      "ways_to_achieve": [
+        "Designate screen-free zones in your home, especially in the bedroom.",
+        "Turn off non-essential notifications throughout your workday.",
+        "Set specific daily time limits for social media app usage."
+      ],
+      "benefits": [
+        "Reduced eye strain and lower levels of digital fatigue.",
+        "Deeper offline relationships and stronger presence with loved ones.",
+        "Improved sleep quality and greater overall productivity."
+      ]
+    },
+    {
+      "title": "Ergonomics and Movement at Work",
+      "description": "Discover how setting up a proper workspace and taking micro-breaks can protect your posture, reduce stiffness, and boost daily efficiency.",
+      "ways_to_achieve": [
+        "Position your monitor at eye level and keep your feet flat on the floor.",
+        "Take a 5-minute movement break for every 30 to 60 minutes of sitting.",
+        "Perform light stretching for the neck, shoulders, and wrists throughout the day."
+      ],
+      "benefits": [
+        "Lower risk of chronic back pain and repetitive strain injuries.",
+        "Improved blood circulation and posture throughout the body.",
+        "Increased mental alertness and focus during long working hours."
+      ]
+    },
+    {
+      "title": "The Role of Preventive Healthcare",
+      "description": "Understand why regular medical check-ups, routine screenings, and self-awareness are essential for catching health issues early.",
+      "ways_to_achieve": [
+        "Schedule an annual physical check-up with a primary care provider.",
+        "Keep up to date with recommended health screenings and vaccinations.",
+        "Track key personal health indicators like blood pressure and cholesterol levels."
+      ],
+      "benefits": [
+        "Early detection of serious conditions when they are most treatable.",
+        "Lower long-term medical costs and fewer overall health complications.",
+        "Peace of mind knowing your baseline health metrics are monitored."
+      ]
+    }
+  ]
+}

@@ -1,17 +1,40 @@
-var xhr = new XMLHttpRequest();
-var url = './health-article.json';
+var xhr_old = new XMLHttpRequest();
+var url_old = './old-articles.json';
+var backgroundColor_old = 'grey';
 
-xhr.open('GET', url, true);
-xhr.responseType = "json";
+var xhr_new = new XMLHttpRequest();
+var url_new = './new-articles.json';
+var backgroundColor_new = 'lightblue';
+
+var articlesDiv = document.getElementById('articles');
 
 
-xhr.onload = function() {
-    var articles = xhr.response.articles;
-    var articlesDiv = document.getElementById('articles');
 
+xhr_old.open('GET', url_old, true);
+xhr_old.responseType = "json";
+xhr_old.onload = function () {
+    var articles = xhr_old.response.articles;
+    displayArticles(articles, backgroundColor_old);
+};
+xhr_old.send();
+
+
+xhr_new.open('GET', url_new, true);
+xhr_new.responseType = "json";
+xhr_new.onload = function () {
+    var articles = xhr_new.response.articles;
+    displayArticles(articles, backgroundColor_new);
+};
+xhr_new.send();
+
+
+
+
+function displayArticles(articles, backgroundColor) {
     articles.forEach(function (article) {
         var articleDiv = document.createElement('div');
         articleDiv.classList.add('article');
+        articleDiv.style.backgroundColor = backgroundColor;
 
         var title = document.createElement('h2');
         title.textContent = article.title;
@@ -48,7 +71,4 @@ xhr.onload = function() {
 
         articlesDiv.appendChild(articleDiv);
     });
-};
-
-
-xhr.send();
+}
